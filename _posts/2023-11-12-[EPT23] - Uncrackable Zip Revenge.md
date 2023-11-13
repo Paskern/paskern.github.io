@@ -76,7 +76,7 @@ _Figure 8 - `flag.txt`_
 > **Flag:** `EPT{th1$_t1m3_y0u_sur3ly_gu3$$ed_th3_p4$$w0rd_r1ght?}`
 {: .prompt-tip }
 
-> **Tip:** The bkcrack tool does not need a file as an input for plaintext. It also works with:\
+> **Tip:** The bkcrack tool does not need a file as an input for plaintext. It also works with:
 ```bash
 bkcrack -C chall.zip -c flag.zip -x 0 504b0304 -x 30 666c61672e747874
 ```
