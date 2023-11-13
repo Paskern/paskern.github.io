@@ -17,8 +17,6 @@ To begin, I used `file chall.zip` for an initial analysis of the provided challe
 ![Alt text](/assets/img/posts/2023/uncrackableziprevenge-file.png)
 _Figure 1 - Initial analysis of `chall.zip`_
 
-We can also use `unzip -l chall.zip` to list the files inside the archive. As seen in the Figure 2, it only contains one file named `flag.zip`. The challenge states that packing things twice makes it secure, so we can assume that the flag is stored inside the `flag.zip`. We could extract the hash and crack it, but the challenge text hints that the solution has something to do with the double zipping. 
-
 Next, I executed `unzip -l chall.zip` to list the files inside the archive. As depicted in Figure 2, it contains a single file named `flag.zip`. Given the challenge's premise that double packing enhances security, it's logical to conclude that the flag is inside `flag.zip`. While one approach would be to extract and crack the hash, the challenge's hint about double zipping suggests a different method might the intended way. 
 
 ![Alt text](/assets/img/posts/2023/uncrackableziprevenge-listfiles.png)
